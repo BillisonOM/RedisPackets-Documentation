@@ -59,3 +59,6 @@ public class Listener extends RedisListener {
 
 }
 ```
+
+### Example Result
+https://prnt.sc/t29n0d
