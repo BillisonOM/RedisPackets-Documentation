@@ -5,7 +5,7 @@ RedisPackets library documentation
 ```java
   private void loadRedis(){
     RedisHandler handler = new RedisHandler(channel, address, port, password);
-    handler.setListener(listener);
+    handler.registerListener(listener);
     handler.registerPacket(new ExamplePacket());
     handler.sendPacket(new ExamplePacket("test"));
   }
